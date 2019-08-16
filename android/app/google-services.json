@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "22888421214",
+    "firebase_url": "https://fluttermeme-aa2f0.firebaseio.com",
+    "project_id": "fluttermeme-aa2f0",
+    "storage_bucket": "fluttermeme-aa2f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22888421214:android:72545332f459536b",
+        "android_client_info": {
+          "package_name": "com.chhorng.fluttermeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22888421214-nbbhqep4rndemg45avg33s2dhkiq27uu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chhorng.fluttermeme",
+            "certificate_hash": "31cd06762cd5b9be5da6da701aa91c00e8c52f5e"
+          }
+        },
+        {
+          "client_id": "22888421214-r1bnm8j571vo3n7g2qodhdobucmgmt85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAms5RGzFL1KmRbr14nMkUCMYUsk0mqlAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22888421214-r1bnm8j571vo3n7g2qodhdobucmgmt85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
