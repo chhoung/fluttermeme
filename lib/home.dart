@@ -32,7 +32,7 @@ class HomeScreenState extends State {
             title: Text('Home'),
             actions: <Widget>[
               IconButton(
-                icon: Icon(Icons.exit_to_app),
+                icon: Icon(Icons.exit_to_app,),
                 onPressed: () {
                   BlocProvider.of<AuthenticationBloc>(context).dispatch(
                     LoggedOut(),
