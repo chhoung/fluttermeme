@@ -23,10 +23,10 @@ class HomeScreen extends StatefulWidget {
 class HomeScreenState extends State<HomeScreen> {
   final String uid;
   HomeScreenState(this.uid);
-
+   
    int _currentPage = 0;
    final _pageOptions = [
-     Home(''),
+     Home(),
      SearchScreen(),
      AddScreen(),
      NotificationScreen(),

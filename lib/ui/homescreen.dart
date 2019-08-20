@@ -6,22 +6,17 @@ import 'package:fluttermeme/authentication_bloc/bloc.dart';
 import 'package:fluttermeme/util/colors.dart';
 
 class Home extends StatefulWidget {
-  final String name;
-
-  Home(this.name);
-
+ 
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
-    return HomeState(this.name);
+    return HomeState();
   }
 }
 
 class HomeState extends State<Home> {
-  final String name;
-  HomeState( this.name);
-
-  @override
+ 
+   @override
   Widget build(BuildContext context) {
     return Scaffold(
        body: new Center(
