@@ -56,5 +56,12 @@ class UserRepository {
     return (await _firebaseAuth.currentUser()).uid;
   }
 
+
+  Future<FirebaseUser> getCurrentUser() async{
+    FirebaseUser currentUser;
+    currentUser = await _firebaseAuth.currentUser();
+    print("EMAIL ID : ${currentUser.email}");
+    return currentUser;
+  }
  
 }

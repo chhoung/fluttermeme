@@ -9,13 +9,13 @@ import 'package:fluttermeme/ui/search.dart';
 import 'package:fluttermeme/ui/add.dart';
 import 'package:fluttermeme/ui/notification.dart';
 import 'package:fluttermeme/ui/profile.dart';
+import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
   final String name;
   HomeScreen({Key key, @required this.name}) : super(key: key);
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return HomeScreenState(this.name);
   }
 }
@@ -23,12 +23,12 @@ class HomeScreen extends StatefulWidget {
 class HomeScreenState extends State<HomeScreen> {
   final String uid;
   HomeScreenState(this.uid);
-   
+  
    int _currentPage = 0;
    final _pageOptions = [
      Home(),
      SearchScreen(),
-     AddScreen(),
+     AddPhotoScreen(),
      NotificationScreen(),
      ProfileScreen(),
    ];
@@ -36,8 +36,7 @@ class HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    return MaterialApp(
+   return MaterialApp(
       theme: ThemeData.dark(),
       home: Scaffold(
         appBar: new AppBar(
@@ -85,9 +84,8 @@ class HomeScreenState extends State<HomeScreen> {
         ),
       ),
     );
+    
   }
 
-  
- 
 
 }

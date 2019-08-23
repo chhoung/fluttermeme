@@ -34,7 +34,8 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+   return    
+    MaterialApp(
       theme: AppModel().themeData,
       home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
         builder: (context, state) {
